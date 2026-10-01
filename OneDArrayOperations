@@ -1,0 +1,12 @@
+public class OneDArrayOperations {
+    public static void main(String[] args) {
+        int[] a = {10, 20, 30, 40, 50};
+
+        System.out.println("Length = " + a.length);
+
+        System.out.print("Elements: ");
+        for (int value : a) {
+            System.out.print(value + " ");
+        }
+    }
+}
